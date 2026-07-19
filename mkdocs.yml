@@ -64,23 +64,26 @@ nav:
   - Início: index.md
 
   - Fundamentos:
-      - Visão Geral: fundamentos/index.md
-      - O que é Cybersecurity?: fundamentos/001-o-que-e-cybersecurity.md
+      - Visão geral: fundamentos/index.md
+      - O que é Cybersecurity?: fundamentos/o-que-e-cybersecurity.md
 
   - Redes:
-      - Visão Geral: redes/index.md
+      - Visão geral: redes/index.md
 
   - Linux:
-      - Visão Geral: linux/index.md
+      - Visão geral: linux/index.md
 
   - Windows:
-      - Visão Geral: windows/index.md
+      - Visão geral: windows/index.md
 
   - Blue Team:
-      - Visão Geral: blue-team/index.md
+      - Visão geral: blue-team/index.md
 
   - OSINT:
-      - Visão Geral: osint/index.md
+      - Visão geral: osint/index.md
 
   - Threat Intelligence:
-      - Visão Geral: threat-intelligence/index.md
+      - Visão geral: threat-intelligence/index.md
+
+  - Laboratórios:
+      - Visão geral: laboratorios/index.md
