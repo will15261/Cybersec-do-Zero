@@ -1,7 +1,7 @@
 <div align="center">
 
 <p align="center">
-  <img src="./assets/banner.png" alt="Cybersecurity do Zero" width="100%">
+  <img src="./assets/banner1.png" alt="Cybersecurity do Zero" width="100%">
 </p>
 
 Este projeto documenta minha jornada de estudos em Cybersecurity.
