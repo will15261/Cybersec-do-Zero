@@ -1,5 +1,9 @@
 <div align="center">
 
+<p align="center">
+  <img src="./assets/banner.png" alt="Cybersecurity do Zero" width="100%">
+</p>
+
 #  Cybersecurity do Zero
 
 ### **Entender antes de decorar.**
