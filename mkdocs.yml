@@ -3,6 +3,9 @@ site_description: Aprenda Cybersecurity do Zero entendendo os fundamentos antes 
 site_author: Willian Hirata
 site_url: https://willianhirata.github.io/cybersecurity-do-zero/
 
+docs_dir: docs
+site_dir: site
+
 theme:
   name: material
   language: pt-BR
@@ -40,7 +43,7 @@ theme:
     - content.tabs.link
 
 extra_css:
-  - extra.css
+  - stylesheets/extra.css
 
 plugins:
   - search
@@ -55,7 +58,11 @@ markdown_extensions:
       permalink: true
 
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
   - pymdownx.highlight:
       anchor_linenums: true
