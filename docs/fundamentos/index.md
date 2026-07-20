@@ -9,7 +9,6 @@ Neste módulo você desenvolverá a base necessária para entender como a segura
 ## O que você aprenderá
 
 - O que é Cybersecurity
-- Segurança da Informação
 - Tríade CIA
 - Ameaças
 - Vulnerabilidades
