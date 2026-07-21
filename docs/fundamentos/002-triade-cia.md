@@ -65,8 +65,7 @@ O nome vem dos termos em inglês:
 - **I — Integrity**;
 - **A — Availability**.
 
-!!! note "Não confunda"
-    Neste contexto, não estamos falando da agência de inteligência norte-americana. É apenas a sigla usada para representar os três objetivos fundamentais da Segurança da Informação.
+E não estamos falando da agência de inteligência americana bele? É apenas a sigla usada para representar os três objetivos fundamentais da Segurança da Informação.
 
 ---
 
@@ -162,7 +161,7 @@ A confidencialidade é violada quando alguém acessa ou visualiza uma informaç�
 - uma pessoa encontra um computador desbloqueado e lê informações internas;
 - um e-mail confidencial é enviado para o destinatário errado.
 
-!!! example "Exemplo prático"
+ "Exemplo prático"
     Um colaborador do setor de vendas consegue acessar a folha salarial de todos os funcionários, mesmo sem precisar dessas informações para realizar seu trabalho.
 
     Nesse caso, houve uma falha de **Confidencialidade**.
@@ -223,7 +222,7 @@ A integridade é violada quando uma informação é alterada, excluída ou corro
 - uma configuração crítica é modificada sem aprovação;
 - dados são digitados de forma incorreta e não passam por validação.
 
-!!! example "Exemplo prático"
+ "Exemplo prático"
     Um cliente solicita uma transferência de **R$ 100,00**, mas o valor é alterado para **R$ 1.000,00** antes de a operação ser concluída.
 
     Mesmo que os dados não tenham sido divulgados e o sistema continue funcionando, houve uma falha de **Integridade**.
@@ -257,7 +256,7 @@ arquivo_alterado.txt   →  hash: D4E5F6
 
 Ao comparar os valores, podemos identificar que o arquivo foi modificado.
 
-!!! warning "Atenção"
+ "Atenção"
     O hash pode ajudar a verificar se ocorreu uma alteração, mas sozinho não informa necessariamente quem fez a mudança ou se ela foi autorizada. Para isso, outros controles podem ser necessários.
 
 ### Pergunta-chave da integridade
@@ -293,7 +292,7 @@ A disponibilidade é afetada quando um sistema, serviço ou informação não po
 - um link de internet apresenta falha;
 - um banco de dados deixa de responder.
 
-!!! example "Exemplo prático"
+ "Exemplo prático"
     Durante uma emergência, os profissionais de um hospital não conseguem acessar os prontuários dos pacientes porque o sistema está fora do ar.
 
     Nesse caso, a **Disponibilidade** foi comprometida — e o impacto pode ser muito grave.
@@ -456,12 +455,12 @@ A importância de cada pilar depende do contexto.
 | Comércio eletrônico | Disponibilidade e Integridade | A loja precisa funcionar e os pedidos devem permanecer corretos |
 | Sistema de folha de pagamento | Confidencialidade e Integridade | Salários não devem ser expostos nem alterados indevidamente |
 
-!!! tip "Pense no impacto"
+ "Pense no impacto"
     O trabalho de Segurança da Informação não consiste apenas em perguntar se existe uma vulnerabilidade. Também precisamos entender o que pode acontecer com o negócio caso um dos pilares seja comprometido.
 
 ---
 
-!!! important "Segurança é equilíbrio"
+ "Segurança é equilíbrio"
     Segurança não significa maximizar a Confidencialidade, a Integridade e a Disponibilidade a qualquer custo.
 
     O objetivo é aplicar controles proporcionais ao risco, considerando proteção, usabilidade, custo e continuidade operacional.
@@ -532,19 +531,19 @@ Comunicar isso com clareza para quem toma decisão é parte do trabalho de CTI. 
 
 Leia cada situação e tente identificar o pilar principal afetado antes de abrir a resposta.
 
-??? question "1. Um funcionário envia uma planilha com dados de clientes para a pessoa errada."
+Questão "1. Um funcionário envia uma planilha com dados de clientes para a pessoa errada."
     **Confidencialidade**, porque as informações foram expostas a alguém sem autorização.
 
-??? question "2. Um invasor modifica o endereço de entrega de vários pedidos."
+Questão "2. Um invasor modifica o endereço de entrega de vários pedidos."
     **Integridade**, porque os dados foram alterados indevidamente.
 
-??? question "3. O sistema de atendimento fica fora do ar durante quatro horas."
+Questãon "3. O sistema de atendimento fica fora do ar durante quatro horas."
     **Disponibilidade**, porque o serviço não pôde ser utilizado quando necessário.
 
-??? question "4. Um ransomware copia dados e depois bloqueia o acesso aos servidores."
+Questão "4. Um ransomware copia dados e depois bloqueia o acesso aos servidores."
     **Confidencialidade e Disponibilidade**, com possível impacto também na **Integridade**.
 
-??? question "5. Um usuário consegue visualizar apenas os documentos relacionados ao seu departamento."
+Questão "5. Um usuário consegue visualizar apenas os documentos relacionados ao seu departamento."
     Esse é um exemplo de controle de acesso ajudando a preservar a **Confidencialidade**.
 
 ---
