@@ -1,10 +1,18 @@
+---
+title: O que é Cybersecurity?
+image: assets/social/banner-linkedin.png
+---
+
 # Capítulo 001 — O que é Cybersecurity?
 
 > **Entender antes de decorar.**
 
-**Nível:** Iniciante
-**Tempo estimado de leitura:** 15 minutos
-**Pré-requisitos:** Nenhum
+| Informação | Detalhes |
+|---|---|
+| **Módulo** | 01 — Fundamentos |
+| **Nível** | Iniciante |
+| **Tempo estimado** | 15 minutos |
+| **Pré-requisito** | [Nenhum] |
 
 ---
 
