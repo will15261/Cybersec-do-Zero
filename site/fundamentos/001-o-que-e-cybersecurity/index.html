@@ -18,7 +18,7 @@
         <link rel="prev" href="../">
       
       
-        <link rel="next" href="../../redes/">
+        <link rel="next" href="../002-triade-cia/">
       
       
         
@@ -55,7 +55,7 @@
       
     
     
-      <link rel="stylesheet" href="../../extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -629,6 +629,34 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../002-triade-cia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A Tríade CIA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -1333,9 +1361,32 @@
 <blockquote>
 <p><strong>Entender antes de decorar.</strong></p>
 </blockquote>
-<p><strong>Nível:</strong> Iniciante
-<strong>Tempo estimado de leitura:</strong> 15 minutos
-<strong>Pré-requisitos:</strong> Nenhum</p>
+<table>
+<thead>
+<tr>
+<th>Informação</th>
+<th>Detalhes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Módulo</strong></td>
+<td>01 — Fundamentos</td>
+</tr>
+<tr>
+<td><strong>Nível</strong></td>
+<td>Iniciante</td>
+</tr>
+<tr>
+<td><strong>Tempo estimado</strong></td>
+<td>15 minutos</td>
+</tr>
+<tr>
+<td><strong>Pré-requisito</strong></td>
+<td>[Nenhum]</td>
+</tr>
+</tbody>
+</table>
 <hr />
 <h2 id="o-que-voce-aprendera-neste-capitulo">O que você aprenderá neste capítulo?<a class="headerlink" href="#o-que-voce-aprendera-neste-capitulo" title="Permanent link">&para;</a></h2>
 <p>Ao final deste capítulo, você será capaz de:</p>
@@ -1416,15 +1467,14 @@
 <p>Não é o cara "Hackudão" com capuz diante de várias telas com um monte de código maluco.</p>
 <p>Esses elementos podem fazer parte da segurança, mas nenhum deles representa a área inteira.</p>
 <p>Cybersecurity é formada pela combinação de três componentes:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>flowchart LR
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    P[Pessoas] --- PR[Processos]
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    PR --- T[Tecnologia]
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    T --- P
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    P --&gt; S[Segurança Cibernética]
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    PR --&gt; S
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    T --&gt; S
-</code></pre></div>
+<pre class="mermaid"><code>flowchart LR
+    P[Pessoas] --- PR[Processos]
+    PR --- T[Tecnologia]
+    T --- P
+
+    P --&gt; S[Segurança Cibernética]
+    PR --&gt; S
+    T --&gt; S</code></pre>
 <h3 id="pessoas">Pessoas<a class="headerlink" href="#pessoas" title="Permanent link">&para;</a></h3>
 <p>São os usuários, analistas, gestores, desenvolvedores, clientes, fornecedores e todos os indivíduos que interagem com os sistemas.</p>
 <h3 id="processos">Processos<a class="headerlink" href="#processos" title="Permanent link">&para;</a></h3>
@@ -1572,17 +1622,16 @@
 <li><strong>Integrity:</strong> Integridade;</li>
 <li><strong>Availability:</strong> Disponibilidade.</li>
 </ul>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>flowchart TD
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>    S[Segurança da Informação]
-<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>
-<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>    S --&gt; C[Confidencialidade]
-<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>    S --&gt; I[Integridade]
-<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>    S --&gt; A[Disponibilidade]
-<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>
-<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>    C --&gt; C1[Somente pessoas autorizadas acessam]
-<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>    I --&gt; I1[Dados permanecem corretos e confiáveis]
-<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>    A --&gt; A1[Sistemas e informações estão acessíveis]
-</code></pre></div>
+<pre class="mermaid"><code>flowchart TD
+    S[Segurança da Informação]
+
+    S --&gt; C[Confidencialidade]
+    S --&gt; I[Integridade]
+    S --&gt; A[Disponibilidade]
+
+    C --&gt; C1[Somente pessoas autorizadas acessam]
+    I --&gt; I1[Dados permanecem corretos e confiáveis]
+    A --&gt; A1[Sistemas e informações estão acessíveis]</code></pre>
 <h2 id="confidencialidade">Confidencialidade<a class="headerlink" href="#confidencialidade" title="Permanent link">&para;</a></h2>
 <p>Significa impedir que informações sejam acessadas por pessoas não autorizadas.</p>
 <p>Exemplo:</p>
@@ -1634,15 +1683,14 @@
 <h2 id="risco">Risco<a class="headerlink" href="#risco" title="Permanent link">&para;</a></h2>
 <p>É a possibilidade de que uma ameaça explore uma vulnerabilidade e provoque um impacto negativo.</p>
 <p>Podemos visualizar essa relação assim:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>flowchart LR
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>    A[Ameaça] --&gt;|Explora| V[Vulnerabilidade]
-<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>    V --&gt;|Compromete| AT[Ativo]
-<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>    AT --&gt;|Gera| I[Impacto]
-<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>    I --&gt; R[Risco para a organização]
-<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>
-<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>    C[Controles de segurança] -. Reduzem .-&gt; V
-<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>    C -. Reduzem .-&gt; I
-</code></pre></div>
+<pre class="mermaid"><code>flowchart LR
+    A[Ameaça] --&gt;|Explora| V[Vulnerabilidade]
+    V --&gt;|Compromete| AT[Ativo]
+    AT --&gt;|Gera| I[Impacto]
+    I --&gt; R[Risco para a organização]
+
+    C[Controles de segurança] -. Reduzem .-&gt; V
+    C -. Reduzem .-&gt; I</code></pre>
 <h3 id="exemplo-simples">Exemplo simples<a class="headerlink" href="#exemplo-simples" title="Permanent link">&para;</a></h3>
 <p>Imagine uma loja com uma porta que não possui fechadura.</p>
 <ul>
@@ -1664,17 +1712,16 @@
 <p>A página, porém, era falsa.</p>
 <p>O invasor captura as credenciais e tenta acessar a conta verdadeira.</p>
 <p>Depois de conseguir acesso, ele pesquisa mensagens, identifica contatos da empresa e tenta utilizar a conta comprometida para enganar outros funcionários.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>flowchart TD
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>    A[Invasor prepara um e-mail falso]
-<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>    A --&gt; B[Funcionário recebe a mensagem]
-<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>    B --&gt; C[Clica no link]
-<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>    C --&gt; D[Acessa uma página falsa]
-<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>    D --&gt; E[Digita suas credenciais]
-<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>    E --&gt; F[Invasor captura e-mail e senha]
-<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>    F --&gt; G[Acessa a conta verdadeira]
-<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>    G --&gt; H[Pesquisa informações internas]
-<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>    H --&gt; I[Tenta ampliar o ataque]
-</code></pre></div>
+<pre class="mermaid"><code>flowchart TD
+    A[Invasor prepara um e-mail falso]
+    A --&gt; B[Funcionário recebe a mensagem]
+    B --&gt; C[Clica no link]
+    C --&gt; D[Acessa uma página falsa]
+    D --&gt; E[Digita suas credenciais]
+    E --&gt; F[Invasor captura e-mail e senha]
+    F --&gt; G[Acessa a conta verdadeira]
+    G --&gt; H[Pesquisa informações internas]
+    H --&gt; I[Tenta ampliar o ataque]</code></pre>
 <p>Esse exemplo envolve diversos conceitos:</p>
 <ul>
 <li><strong>engenharia social:</strong> manipulação de uma pessoa;</li>
@@ -1738,19 +1785,18 @@
 <li><strong>Recover — Recuperar</strong></li>
 </ol>
 <p>A função Govern foi adicionada como função central na versão 2.0, publicada em 2024. O conjunto oferece uma visão do ciclo de gerenciamento do risco cibernético.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>flowchart LR
-<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>    G[Governar] --&gt; I[Identificar]
-<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>    I --&gt; P[Proteger]
-<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>    P --&gt; D[Detectar]
-<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>    D --&gt; R[Responder]
-<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>    R --&gt; RC[Recuperar]
-<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>    RC --&gt; I
-<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>
-<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>    G -. Orienta todas as funções .-&gt; P
-<a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>    G -. Orienta todas as funções .-&gt; D
-<a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>    G -. Orienta todas as funções .-&gt; R
-<a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a>    G -. Orienta todas as funções .-&gt; RC
-</code></pre></div>
+<pre class="mermaid"><code>flowchart LR
+    G[Governar] --&gt; I[Identificar]
+    I --&gt; P[Proteger]
+    P --&gt; D[Detectar]
+    D --&gt; R[Responder]
+    R --&gt; RC[Recuperar]
+    RC --&gt; I
+
+    G -. Orienta todas as funções .-&gt; P
+    G -. Orienta todas as funções .-&gt; D
+    G -. Orienta todas as funções .-&gt; R
+    G -. Orienta todas as funções .-&gt; RC</code></pre>
 <h2 id="governar">Governar<a class="headerlink" href="#governar" title="Permanent link">&para;</a></h2>
 <p>Define responsabilidades, políticas, prioridades e a maneira como os riscos serão administrados.</p>
 <h2 id="identificar">Identificar<a class="headerlink" href="#identificar" title="Permanent link">&para;</a></h2>
@@ -2078,6 +2124,9 @@
 
 
 
+  
+  
+
 
 
 
@@ -2125,13 +2174,13 @@
         
         
           
-          <a href="../../redes/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Visão Geral">
+          <a href="../002-triade-cia/" class="md-footer__link md-footer__link--next" aria-label="Próximo: A Tríade CIA">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Próximo
               </span>
               <div class="md-ellipsis">
-                Visão Geral
+                A Tríade CIA
               </div>
             </div>
             <div class="md-footer__button md-icon">

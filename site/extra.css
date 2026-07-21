@@ -87,7 +87,7 @@
   width: min(420px, 100%);
   height: 48px;
 
-  background-image: url("../assets/header-title.png");
+  background-image: url("/cybersecurity-do-zero/assets/header-title.png");
   background-repeat: no-repeat;
   background-position: left center;
   background-size: contain;
