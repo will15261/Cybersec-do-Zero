@@ -3,7 +3,7 @@ title: Capítulo 004 — Ameaças
 description: Entenda o que são ameaças, como elas se diferenciam de vulnerabilidades, ataques, incidentes e riscos, e como equipes de Segurança analisam possíveis fontes de dano.
 ---
 
-# ⚠️ Capítulo 004 — Ameaças
+#  Capítulo 004 — Ameaças
 
 > **Entender antes de decorar.**
 
@@ -18,7 +18,7 @@ description: Entenda o que são ameaças, como elas se diferenciam de vulnerabil
 
 ---
 
-## 🎯 Objetivo deste capítulo
+##  Objetivo deste capítulo
 
 Ao final deste capítulo, você será capaz de:
 
@@ -31,7 +31,7 @@ Ao final deste capítulo, você será capaz de:
 
 ---
 
-## Antes de começar
+## Como sempre, vamos começar utilizando nossa imaginação.
 
 Imagine uma empresa que armazena informações de milhares de clientes.
 
@@ -78,7 +78,7 @@ Em outras palavras:
 
 > **A ameaça representa algo que pode dar errado e causar dano.**
 
-!!! note "Potencial não significa incidente confirmado"
+ "Potencial não significa incidente confirmado"
     Uma ameaça pode existir mesmo que nenhum ataque tenha acontecido.
 
     A possibilidade de phishing, falha técnica, erro humano ou evento ambiental já exige análise e preparação.
@@ -118,7 +118,7 @@ Ameaças aparecem junto de vários termos relacionados. Entender a diferença en
 | **Risco** | Qual é a possibilidade e a gravidade? | Possibilidade de perda financeira e operacional |
 | **Controle** | O que reduz a possibilidade ou o impacto? | MFA, backups, EDR e segmentação |
 
-!!! warning "Ameaça e vulnerabilidade são diferentes"
+ "Ameaça e vulnerabilidade são diferentes"
     A ameaça representa o potencial de dano.
 
     A vulnerabilidade é uma fraqueza que pode facilitar esse dano.
@@ -276,7 +276,7 @@ São situações sem intenção de causar dano, normalmente ligadas a erro human
 - procedimentos documentados;
 - separação entre testes e produção.
 
-!!! note "Nem todo erro é apenas culpa do usuário"
+ "Calma lá.. nem todo erro é apenas culpa do usuário"
     Também precisamos avaliar se os processos, as permissões e os controles permitiram que uma única ação causasse um impacto excessivo.
 
 ---
@@ -380,7 +380,7 @@ A identidade pertence a um usuário legítimo, mas está sendo controlada por um
 
 Esse cenário pode ser difícil de identificar porque a atividade parte de uma conta válida.
 
-!!! tip "Observe o comportamento, não apenas a origem"
+ "Observe o comportamento, não apenas a origem"
     Uma conexão interna ou uma conta válida não deve ser considerada automaticamente segura.
 
 ---
@@ -523,7 +523,7 @@ Uma ameaça é uma possibilidade. Para monitorá-la, o SOC procura comportamento
 | Exfiltração | Grande transferência para destino incomum |
 | DDoS | Crescimento anormal de tráfego e degradação do serviço |
 
-!!! warning "Alerta não confirma um incidente"
+ "Alerta não confirma um incidente"
     Um alerta precisa ser investigado. Ele pode representar atividade maliciosa, comportamento legítimo incomum, erro de configuração ou falso positivo.
 
 ## Da ameaça à ação defensiva
@@ -576,7 +576,7 @@ Podem incluir:
 - nomes de arquivos;
 - artefatos de execução.
 
-!!! warning "Indicadores precisam de contexto"
+ "Indicadores precisam de contexto"
     Um IP pode ser compartilhado, um domínio pode deixar de ser utilizado e um hash muda quando o arquivo é alterado.
 
     Antes de bloquear, avalie origem, confiança, período e relevância.
@@ -608,28 +608,28 @@ Ao estudar uma ameaça, faça perguntas como:
 
 # Exercício de fixação
 
-??? question "1. Uma senha fraca é uma ameaça ou uma vulnerabilidade?"
+Questão "1. Uma senha fraca é uma ameaça ou uma vulnerabilidade?"
     É uma **vulnerabilidade**, pois representa uma fraqueza que pode facilitar o acesso indevido.
 
-??? question "2. Uma tempestade pode ser uma ameaça mesmo sem intenção maliciosa?"
+Questão "2. Uma tempestade pode ser uma ameaça mesmo sem intenção maliciosa?"
     Sim. É uma ameaça **ambiental**, pois pode causar indisponibilidade e outros impactos.
 
-??? question "3. Um funcionário envia dados para a pessoa errada. Qual categoria se aplica?"
+Questão "3. Um funcionário envia dados para a pessoa errada. Qual categoria se aplica?"
     É um exemplo de ameaça **acidental**. A Confidencialidade pode ser comprometida mesmo sem intenção.
 
-??? question "4. Um grupo envia phishing, rouba uma senha e acessa o e-mail. Qual é o vetor inicial?"
+Questão "4. Um grupo envia phishing, rouba uma senha e acessa o e-mail. Qual é o vetor inicial?"
     O **e-mail de phishing** é o vetor utilizado para alcançar o usuário.
 
-??? question "5. Um servidor apresenta falha de disco. Isso é um ataque?"
+Questão "5. Um servidor apresenta falha de disco. Isso é um ataque?"
     Não. É uma ameaça **estrutural** que pode afetar a Disponibilidade e a Integridade.
 
-??? question "6. Todo alerta do SIEM confirma um incidente?"
+Questão "6. Todo alerta do SIEM confirma um incidente?"
     Não. O alerta precisa ser investigado e correlacionado com contexto e outras evidências.
 
-??? question "7. Um endereço IP de um relatório deve ser bloqueado automaticamente?"
+Questão "7. Um endereço IP de um relatório deve ser bloqueado automaticamente?"
     Não necessariamente. É preciso avaliar confiança, contexto, data, relevância e possíveis impactos do bloqueio.
 
-??? question "8. Um DDoS afeta principalmente qual pilar?"
+Questão "8. Um DDoS afeta principalmente qual pilar?"
     A **Disponibilidade**, pois busca degradar ou impedir o acesso ao serviço.
 
 ---
@@ -688,7 +688,7 @@ Lembre-se:
 
 ---
 
-# 🧠 Checkpoint
+#  Checkpoint
 
 Antes de seguir para o próximo capítulo, confirme se você consegue responder:
 
