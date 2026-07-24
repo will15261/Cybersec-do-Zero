@@ -23,7 +23,7 @@ Este projeto documenta minha jornada de estudos em Cybersecurity.
 
 <br>
 
-📖 **Comece pelos fundamentos** • 🚀 **Aprenda no seu ritmo** • 🛡️ **Construa uma base sólida**
+📖 **Comece pelos fundamentos** •  **Aprenda no seu ritmo** •  **Construa uma base sólida**
 
 </div>
 
@@ -90,7 +90,7 @@ Construir uma documentação gratuita, organizada e acessível que ajude estudan
 
 | Módulo                |     Situação    |  Progresso |
 | :-------------------- | :-------------: | :--------: |
-| 🟢 Fundamentos        | 🚧 Em andamento | **1 / 15** |
+| 🟢 Fundamentos        | 🚧 Em andamento | **4 / 15** |
 | ⚪ Redes               |   ⏳ Planejado   | **0 / 12** |
 | ⚪ Linux               |   ⏳ Planejado   | **0 / 18** |
 | ⚪ Windows             |   ⏳ Planejado   | **0 / 15** |
@@ -107,14 +107,14 @@ Construir uma documentação gratuita, organizada e acessível que ajude estudan
 | Capítulo                                                                        |       Status       |
 | ------------------------------------------------------------------------------- | :----------------: |
 | ✅ [001 — O que é Cybersecurity?](./01-Fundamentos/001-o-que-e-cybersecurity.md) |      Publicado     |
-| ⏳ 002 — Tríade CIA                                                              | Em desenvolvimento |
-| ⏳ 003 — Princípio do Menor Privilégio                                           |      Planejado     |
-| ⏳ 004 — Defense in Depth                                                        |      Planejado     |
-| ⏳ 005 — Zero Trust                                                              |      Planejado     |
+| ✅ 002 — Tríade CIA                                                              |      Publicado     |
+| ✅ 003 — Princípio do Menor Privilégio                                           |      Publicado     |
+| ✅ 004 — Ameaças                                                                 |      Publicado     |
+| ⏳ 005 — Vulnerabilidades                                                         |      Planejado     |
 
 ---
 
-# 💡 Como estudar
+#  Como estudar
 
 Para aproveitar melhor esta documentação:
 
